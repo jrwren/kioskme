@@ -1,0 +1,9 @@
+[Unit]
+Description=kioskme
+
+[Service]
+Type=simple
+Restart=on-failure
+User=kioskme
+Group=kioskme
+ExecStart=startx /etc/X11/Xsession /usr/bin/kioskme -- :0 -nolisten tcp vt7
