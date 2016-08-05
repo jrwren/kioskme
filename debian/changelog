@@ -1,5 +1,11 @@
+kioskme (0.0.0-0-2) xenial; urgency=medium
+
+  * split xorg/Xsession systemd services
+
+ -- Jay R. Wren <jrwren@xmtp.net>  Thu, 04 Aug 2016 22:34:52 -0400
+
 kioskme (0.0.0-0-1) unstable; urgency=medium
 
-  * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+  * Initial release
 
  -- Jay R. Wren <jrwren@xmtp.net>  Thu, 04 Aug 2016 16:58:16 -0400
