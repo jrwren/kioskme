@@ -6,4 +6,6 @@ Type=simple
 Restart=on-failure
 User=kioskme
 Group=kioskme
-ExecStart=startx /etc/X11/Xsession /usr/bin/kioskme -- :0 -nolisten tcp vt7
+Environment="DISPLAY=:0"
+ExecStart=/etc/X11/Xsession /usr/bin/kioskme
+Requires=xorg

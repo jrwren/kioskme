@@ -1,0 +1,7 @@
+[Unit]
+Description=xorg
+
+[Service]
+Type=simple
+Restart=on-failure
+ExecStart=/usr/bin/X
